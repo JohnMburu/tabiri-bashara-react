@@ -36,3 +36,11 @@
   text-align: center;
   font-size: small;
 }
+
+.card-holder {
+  padding-top: 30px;
+}
+
+.main-report-card-div {
+  margin: auto ;
+}
