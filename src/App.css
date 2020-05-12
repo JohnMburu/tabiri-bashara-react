@@ -17,4 +17,22 @@
   background-color: red;
   color: white;
   text-align: center;
+  font-size: small;
+}
+
+.center-upload {
+  margin: auto;
+  width: 50%;
+  height: 100px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #073b4c;
+}
+
+.upload-text {
+  text-align: center;
+  font-size: small;
 }

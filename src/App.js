@@ -12,8 +12,7 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/">Predict</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/prediction">Prediction outcome</Nav.Link>
             </Nav>
           </Navbar.Collapse>
       </Navbar>
@@ -36,7 +35,7 @@ function App() {
                 <Nav.Link href="/privacy">Data Protection and Privacy</Nav.Link>
                 </Col>
                 <Col sm={3}>
-                <Nav.Link >Mburu John Mureithi</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
                 </Col>
                 <Col sm={3}>
                 <Nav.Link >© copyright 2020</Nav.Link>

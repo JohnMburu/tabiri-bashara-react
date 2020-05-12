@@ -4,7 +4,7 @@ class Prediction extends Component{
     render(){
         return(
             <div>
-                <h1>Prediction</h1>
+                <h1>Prediction Outcome</h1>
             </div>
         )
     }
