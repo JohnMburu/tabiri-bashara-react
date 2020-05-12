@@ -1,24 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Nav, Navbar, Form, Container, Row, Col} from 'react-bootstrap' ;
+import Main from './components/main';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar className="justify-content-end" bg="dark" variant="dark" expand="lg">
+          <Navbar.Brand href="/">Tabiri Biashara</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="/">Predict</Nav.Link>
+              <Nav.Link href="/about">About</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+      </Navbar>
+
+      <Form>
+      <Main/>
+      </Form>
+
+      <div className ="footer">
+      <Navbar bg="dark" variant="dark" >
+            <Nav className="mr-auto">
+
+
+            <Container>
+              <Row>
+                <Col sm={3}>
+                <Nav.Link href="/legal">Terms and Conditions</Nav.Link>
+                </Col>
+                <Col sm={3}>
+                <Nav.Link href="/privacy">Data Protection and Privacy</Nav.Link>
+                </Col>
+                <Col sm={3}>
+                <Nav.Link >Mburu John Mureithi</Nav.Link>
+                </Col>
+                <Col sm={3}>
+                <Nav.Link >© copyright 2020</Nav.Link>
+                </Col>
+              </Row>
+            </Container>
+            </Nav>
+      </Navbar>
+      </div>
     </div>
   );
 }
