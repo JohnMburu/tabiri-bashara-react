@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar className="justify-content-end" bg="dark" variant="dark" expand="lg">
-          <Navbar.Brand href="/">Tabiri Biashara</Navbar.Brand>
+          <Navbar.Brand href="/" className="tabiri-bold">Tabiri Biashara</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -28,8 +28,8 @@ function App() {
 
             <Container>
               <Row>
-                <Col sm={3}>
-                <Nav.Link href="/legal">Terms and Conditions</Nav.Link>
+                <Col sm={3}> 
+                <Nav.Link href="/home" className="tabiri-bold">Tabiri</Nav.Link>
                 </Col>
                 <Col sm={3}>
                 <Nav.Link href="/privacy">Data Protection and Privacy</Nav.Link>
@@ -38,7 +38,7 @@ function App() {
                 <Nav.Link href="/about">About</Nav.Link>
                 </Col>
                 <Col sm={3}>
-                <Nav.Link >© copyright 2020</Nav.Link>
+                <Nav.Link >Downloads</Nav.Link>
                 </Col>
               </Row>
             </Container>

@@ -44,3 +44,19 @@
 .main-report-card-div {
   margin: auto ;
 }
+
+.sector-list {
+  font-size: large;
+  font-weight: bold;
+}
+.tabiri-bold {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.div-shadding-grey{
+    background-color: #ededed;
+}
+
+.div-shadding-light-grey{
+  background-color: #f9f9f9;
+}
