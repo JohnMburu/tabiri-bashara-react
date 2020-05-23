@@ -2,13 +2,13 @@ import React, {Component} from 'react';
 import { Nav } from 'react-bootstrap' ;
 
 
-class About extends Component{
+class AboutNav extends Component{
     render(){
         return(
             <div>
                 <Nav defaultActiveKey="/about" as="ul">
                 <Nav.Item as="li">
-                    <Nav.Link href="/about">About</Nav.Link>
+                    <Nav.Link href="/about">FAQ</Nav.Link>
                 </Nav.Item>
                 <Nav.Item as="li">
                     <Nav.Link href="/sectors">SME Sectors</Nav.Link>
@@ -21,4 +21,4 @@ class About extends Component{
         )
     }
 }
-export default About;
+export default AboutNav;

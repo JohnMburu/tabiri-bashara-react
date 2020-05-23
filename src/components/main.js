@@ -7,6 +7,7 @@ import Privacy from './privacy';
 import Prediction from './prediction';
 import Sectors from './sectors';
 import Types from './types';
+import Downloads from './downloads'
 
 
 const Main = () => (
@@ -17,6 +18,7 @@ const Main = () => (
         <Route path="/prediction" component={Prediction} />
         <Route path="/sectors" component={Sectors} />
         <Route path="/types" component={Types} />
+        <Route path="/downloads" component={Downloads} />
 
     </Switch>
 )

@@ -5,7 +5,7 @@ import {  Row, Col, Container } from 'react-bootstrap' ;
 class Sectors extends Component{
     render(){
         return(
-            <div>
+            <div className="main-report-card-sector">
                 <Col sm={12}><AboutNav/></Col>
                 <Container>
 
@@ -38,8 +38,6 @@ class Sectors extends Component{
                         </Col>
                     </Row>
 
-
-
                     <Row className="div-shadding-light-grey">
                         <Col sm={3}>
                             <div className="sector-list">Consumer Staples</div>
@@ -65,8 +63,6 @@ class Sectors extends Component{
                                 <div>- Semiconductors & Semiconductor Equipment </div>
                         </Col>
                     </Row>
-                    
-
 
                     <Row className="div-shadding-grey">
                         <Col sm={3}>

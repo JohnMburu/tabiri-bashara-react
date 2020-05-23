@@ -15,6 +15,7 @@ class Upload extends Component{
                         accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" 
                     />
                     </Form>
+                    
                     <div className="upload-text">
                         Upload will only accept <strong>.xls</strong>, <strong>.xlsx </strong>and <strong>.csv</strong> files
                     </div>

@@ -7,7 +7,7 @@ class Types extends Component{
         return(
             <div>
                 <Col sm={12}><AboutNav/></Col>
-                <Container>
+                <Container className="main-report-card-type">
                     <Row className="div-shadding-grey"> 
                         <Col sm={6}>
                             <div className="sector-list">Service Business</div>
@@ -30,8 +30,6 @@ class Types extends Component{
                                 <div>- other resellers.</div>
                         </Col>
                     </Row>
-
-
 
                     <Row className="div-shadding-light-grey">
                         <Col sm={6}>

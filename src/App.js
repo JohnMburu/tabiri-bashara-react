@@ -17,28 +17,19 @@ function App() {
             </Nav>
           </Navbar.Collapse>
       </Navbar>
-      <Form>
-      <Main/>
-      </Form>
-
+        <Form>
+        <Main/>
+        </Form>
       <div className ="footer">
       <Navbar bg="dark" variant="dark" >
             <Nav className="mr-auto">
-
-
             <Container>
-              <Row>
-                <Col sm={3}> 
-                <Nav.Link href="/home" className="tabiri-bold">Tabiri</Nav.Link>
+              <Row className="tabiri-bold-footer">
+                <Col> 
+                <Nav.Link href="/about">FAQ</Nav.Link>
                 </Col>
-                <Col sm={3}>
-                <Nav.Link href="/privacy">Data Protection and Privacy</Nav.Link>
-                </Col>
-                <Col sm={3}>
-                <Nav.Link href="/about">About</Nav.Link>
-                </Col>
-                <Col sm={3}>
-                <Nav.Link >Downloads</Nav.Link>
+                <Col>
+                <Nav.Link href="/downloads">Downloads</Nav.Link>
                 </Col>
               </Row>
             </Container>

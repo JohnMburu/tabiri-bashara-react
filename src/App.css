@@ -38,11 +38,22 @@
 }
 
 .card-holder {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .main-report-card-div {
-  margin: auto ;
+  margin: 70px auto ;
+}
+
+.main-report-card-type {
+  margin-bottom: 70px  ;
+}
+
+.main-report-card-sector {
+  margin-bottom: 70px  ;
+}
+.main-report-card-about {
+  margin-bottom: 70px  ;
 }
 
 .sector-list {
@@ -50,9 +61,26 @@
   font-weight: bold;
 }
 .tabiri-bold {
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: bold;
 }
+
+.tabiri-bold-footer {
+  font-size: large;
+  font-weight: bold;
+}
+.text-large-bold {
+  font-size: large;
+  font-weight: bold;
+}
+
+.text-small-bold {
+  font-size: small;
+  font-weight: bold;
+  color: rgb(0, 47, 255);
+}
+
+
 .div-shadding-grey{
     background-color: #ededed;
 }
