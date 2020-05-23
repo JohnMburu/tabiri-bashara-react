@@ -32,6 +32,12 @@
   color: #073b4c;
 }
 
+.center-upload-button{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
 .upload-text {
   text-align: center;
   font-size: small;
