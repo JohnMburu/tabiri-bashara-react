@@ -20,7 +20,7 @@ class About extends Component{
                             <Col sm={1}> </Col>
                             <Col sm={11}>
                             <div>
-                                <div> - Download the data capture Excel Here</div>
+                                <div> - Go to the downloads page and download the excel or csv file </div>
                                 <div> - Porpulate your sales and purchases data for the month</div>
                                 <div> - Upload the excel on the tabiri platform</div>
                                 <div> - Checkout the Predictions</div>

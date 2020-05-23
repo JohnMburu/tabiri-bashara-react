@@ -1,0 +1,32 @@
+Sr_No,Date ,Sales,Sale_Refunds,Purchases,Purchase_cancelation,Company size,Service,Location,Sector,,,,,,,,,Location,Service,Company size,Sector
+1,,,,,,,,,,,,,,,,,,Rural Area,Merchandising Business,1 = 1-10,Energy
+1,,,,,,,,,,,,,,,,,,Urban Area,Service Business,2 = 11-50,Materials
+1,,,,,,,,,,,,,,,,,,Both rural and Urban Area,Manufacturing Business,3 = 51-100,Industrials
+1,,,,,,,,,,,,,,,,,,,Hybrid Business,4= >100,Consumer Discretionary
+1,,,,,,,,,,,,,,,,,,,,,Consumer Staples
+1,,,,,,,,,,,,,,,,,,,,,Health Care
+1,,,,,,,,,,,,,,,,,,,,,Financials
+1,,,,,,,,,,,,,,,,,,,,,Information Technology
+1,,,,,,,,,,,,,,,,,,,,,Communication Services
+1,,,,,,,,,,,,,,,,,,,,,Utilities
+1,,,,,,,,,,,,,,,,,,,,,Real Estate
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,

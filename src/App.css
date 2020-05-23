@@ -73,6 +73,9 @@
   font-size: large;
   font-weight: bold;
 }
+.downloads-div{
+  margin: auto
+}
 
 .text-small-bold {
   font-size: small;
