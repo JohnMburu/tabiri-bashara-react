@@ -11,7 +11,7 @@ class About extends Component{
                 <Container className="div-shadding-light-grey">
                     <div className="text-large-bold">Frequenty asked Questions</div>
                     <div>
-                    <Container>
+                    <div>
                         <Row className="text-small-bold">
                             <Col sm={1}>1. </Col>
                             <Col sm={11}>How Can I predict my businesses Sales and Purchase? </Col>
@@ -27,12 +27,22 @@ class About extends Component{
                             </div>   
                             </Col>
                         </Row>
-                    </Container>
-
+                        <Row className="text-small-bold">
+                            <Col sm={1}>2. </Col>
+                            <Col sm={11}>Is the data I provide stored? </Col>
+                        </Row>
+                        <Row>
+                            <Col sm={1}> </Col>
+                            <Col sm={11}>
+                            <div>
+                                <div> NO! </div>
+                                <div> - We do not save any data after the prediction has been completed!</div>
+                            </div>   
+                            </Col>
+                        </Row>
                     </div>
 
-                    <div></div>
-                    <div>Architecture</div>  
+                    </div>
                 </Container>
      
             </div>

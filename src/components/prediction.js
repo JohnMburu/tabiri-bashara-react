@@ -22,8 +22,7 @@ class Prediction extends Component{
                             Sales Analysis Prediction Analysis 
                             Sales Analysis Prediction Analysis 
                             Sales Analysis Prediction Analysis 
-                            Sales Analysis Prediction Analysis 
- 
+                            Sales Analysis Prediction Analysis  
 
                             </Card.Text>
                             <div>
